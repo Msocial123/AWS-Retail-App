@@ -6,15 +6,15 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Msocial123/AWS-Retail-App.git
+    repoURL: https://github.com/Bhavana-6/AWS-Retail-App.git
     targetRevision: dev
     path: Retail-chart
     helm:
-      values: |
+      values: https://80E7DE0FA1D5B50B9989BCC1DA82D15E.yl4.us-east-2.eks.amazonaws.com
         userprofile:
           activeVersion: blue
   destination:
-    server: https://5D3C28B0D81696975478E3A174373019.gr7.us-east-2.eks.amazonaws.com
+    server: 
     namespace: retail
   syncPolicy:
     automated:
